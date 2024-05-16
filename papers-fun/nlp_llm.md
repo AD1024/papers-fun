@@ -1,6 +1,6 @@
 # Natural Language Processing/LLMs
 
-Back to [catalog](README.md)
+Go Back to [Catalog](README.md)
 
 (Sorted by year)
 

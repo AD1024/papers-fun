@@ -46,7 +46,7 @@ def build_readme():
                     #     cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
                     cite += """</pre></code>"""
                     fd.write(f"<details>"
-                            f'<summary><a href="{entry.fields["url"]}">{entry.fields["title"]}</a> ({entry.fields["year"]})</summary>'
+                            f'<summary><a href="{entry.fields.get("url", "#")}">{entry.fields["title"]}</a> ({entry.fields["year"]})</summary>'
                             '<br>'
                             f'{cite}'
                             '</details>')
