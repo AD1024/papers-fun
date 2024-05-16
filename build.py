@@ -6,20 +6,6 @@ from pybtex.database import BibliographyData, Entry
 with open('config.json') as fd:
     configs = json.load(fd)
 
-# Adapted from https://github.com/m-niemeyer/m-niemeyer.github.io
-def generate_person_html(persons, connection=" and "):
-    s = ""
-    for p in persons:
-        string_part_i = ""
-        for name_part_i in p.get_part('first') + p.get_part('last'): 
-            if string_part_i != "":
-                string_part_i += " "
-            string_part_i += name_part_i
-        if p != persons[-1]:
-            string_part_i += connection
-        s += string_part_i
-    return s
-
 def build_readme():
     with open(os.path.join('papers-fun', 'README.md'), 'w') as fd_readme:
         fd_readme.write('# Papers by fields\n\n')
@@ -38,12 +24,8 @@ def build_readme():
                 fd.write(f'Go Back to [Catalog](README.md)\n\n')
                 fd.write('(Sorted by year)\n\n')
                 for key, entry in sorted(bib_data.entries.items(), key=lambda x: int(x[1].fields['year']), reverse=True):
-                    # fd.write(f'- [{entry.fields["title"]}]({entry.fields["url"]}) ({entry.fields["year"]})\n')
                     cite = "<pre><code>"
                     cite += BibliographyData({key: entry}).to_string('bibtex')
-                    # cite += "\tauthor = {" + f"{generate_person_html(entry.persons['author'])}" + "}, \n"
-                    # for entr in ['title', 'year']:
-                    #     cite += f"\t{entr} = " + "{" + f"{entry.fields[entr]}" + "}, \n"
                     cite += """</pre></code>"""
                     fd.write(f"<details>"
                             f'<summary><a href="{entry.fields.get("url", "#")}">{entry.fields["title"]}</a> ({entry.fields["year"]})</summary>'
