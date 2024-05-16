@@ -8,3 +8,5 @@
 
 - [Mathematics](math.md)
 
+- [The Next 700 Series (PL*)](next700.md)
+

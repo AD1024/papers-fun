@@ -28,5 +28,10 @@
         "field": "Mathematics",
         "bibtex": "bibs/math.bib",
         "file": "math.md"
+    },
+    {
+        "field": "The Next 700 Series (PL*)",
+        "bibtex": "bibs/next700.bib",
+        "file": "next700.md"
     }
 ]
