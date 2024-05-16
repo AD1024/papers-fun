@@ -1,0 +1,32 @@
+[
+    {
+        "field": "Programming Language and Software Engineering",
+        "bibtex": "bibs/plse.bib",
+        "file": "plse.md"
+    },
+    {
+        "field": "Theory",
+        "bibtex": "bibs/theory.bib",
+        "file": "theory.md"
+    },
+    {
+        "field": "Systems",
+        "bibtex": "bibs/sys.bib",
+        "file": "systems.md"
+    },
+    {
+        "field": "Natural Language Processing/LLMs",
+        "bibtex": "bibs/nlp_llm.bib",
+        "file": "nlp_llm.md"
+    },
+    {
+        "field": "Computer Vision",
+        "bibtex": "bibs/cv.bib",
+        "file": "cv.md"
+    },
+    {
+        "field": "Mathematics",
+        "bibtex": "bibs/math.bib",
+        "file": "math.md"
+    }
+]
