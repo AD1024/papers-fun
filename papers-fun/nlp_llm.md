@@ -12,6 +12,15 @@ Go Back to [Catalog](README.md)
     archivePrefix = "arXiv",
     primaryClass = "cs.AI"
 }
+</pre></code></details><details><summary><a href="https://arxiv.org/abs/2312.16245">iKUN: Speak to Trackers without Retraining</a> (2024)</summary><br><pre><code>@misc{du2024ikun,
+    author = "Du, Yunhao and Lei, Cheng and Zhao, Zhicheng and Su, Fei",
+    title = "iKUN: Speak to Trackers without Retraining",
+    year = "2024",
+    url = "https://arxiv.org/abs/2312.16245",
+    eprint = "2312.16245",
+    archivePrefix = "arXiv",
+    primaryClass = "cs.CV"
+}
 </pre></code></details><details><summary><a href="https://arxiv.org/abs/2401.00426">keqing: knowledge-based question answering is a nature chain-of-thought mentor of LLM</a> (2023)</summary><br><pre><code>@misc{wang2023keqing,
     author = "Wang, Chaojie and Xu, Yishi and Peng, Zhong and Zhang, Chenxi and Chen, Bo and Wang, Xinrun and Feng, Lei and An, Bo",
     title = "keqing: knowledge-based question answering is a nature chain-of-thought mentor of LLM",
