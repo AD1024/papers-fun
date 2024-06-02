@@ -21,6 +21,14 @@ Go Back to [Catalog](README.md)
     archivePrefix = "arXiv",
     primaryClass = "cs.CV"
 }
+</pre></code></details><details><summary><a href="#">Genshin: General Shield for Natural Language Processing with Large Language Models</a> (2024)</summary><br><pre><code>@misc{peng2024genshin,
+    author = "Peng, Xiao and Liu, Tao and Wang, Ying",
+    title = "Genshin: General Shield for Natural Language Processing with Large Language Models",
+    year = "2024",
+    eprint = "2405.18741",
+    archivePrefix = "arXiv",
+    primaryClass = "cs.CL"
+}
 </pre></code></details><details><summary><a href="https://arxiv.org/abs/2401.00426">keqing: knowledge-based question answering is a nature chain-of-thought mentor of LLM</a> (2023)</summary><br><pre><code>@misc{wang2023keqing,
     author = "Wang, Chaojie and Xu, Yishi and Peng, Zhong and Zhang, Chenxi and Chen, Bo and Wang, Xinrun and Feng, Lei and An, Bo",
     title = "keqing: knowledge-based question answering is a nature chain-of-thought mentor of LLM",
